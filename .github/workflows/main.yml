@@ -31,5 +31,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploy using surge
-      run: surge ./ useful-girl.surge.sh --token${{ secrets.SURGE_TOKEN }}
+      run: surge ./ decisive-glass.surge.sh --token${{ secrets.SURGE_TOKEN }}
      
